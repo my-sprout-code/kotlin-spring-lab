@@ -1,0 +1,20 @@
+### get
+GET http://localhost:8080/api/hello
+
+### requset-mapping
+GET http://localhost:8080/api/request-mapping
+
+### get path-variable
+GET http://localhost:8080/api/get-mapping/path-variable/woojae/26
+
+### get path-variable2
+GET http://localhost:8080/api/get-mapping/path-variable2/woojae/26
+
+### get query-parameter
+GET http://localhost:8080/api/get-mapping/query-param?name=kwj1270&age=26
+
+### get model attribute
+GET http://localhost:8080/api/get-mapping/query-param/object?name=kwj1270&age=26&email=kwj1270@naver.com&address=광명
+
+### get map parsing
+GET http://localhost:8080/api/get-mapping/query-param/map?name=kwj1270&age=26&email=kwj1270@naver.com&address=광명&phone-number=00011222
